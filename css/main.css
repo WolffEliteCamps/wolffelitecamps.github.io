@@ -2446,6 +2446,38 @@ input::-moz-focus-inner {
   color: #cf1767;
 }
 
+
+
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+
+
+
+
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
@@ -2782,29 +2814,6 @@ input::-moz-focus-inner {
 
 }
 
-@media screen and (max-width:1024px) {
-  .masonry__brick {
-    padding: 0 20px;
-    margin-bottom: 40px;
-  }
-
-  .item-folio {
-    padding: 40px;
-  }
-
-}
-
-@media screen and (max-width:900px) {
-  .masonry__brick {
-    padding: 0 16px;
-    margin-bottom: 32px;
-  }
-
-  .item-folio {
-    padding: 32px;
-  }
-
-}
 
 @media screen and (max-width:800px) {
   .s-works {
