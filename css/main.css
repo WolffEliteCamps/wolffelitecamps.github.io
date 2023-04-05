@@ -100,7 +100,6 @@ a:active {
 }
 
 
-
 /* ===================================================================
  * # typography & general theme styles
  * 
@@ -1908,7 +1907,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 792px;
-  background-color: #050505;
+  background-color: #ffffff;
 }
 
 .intro-content {
