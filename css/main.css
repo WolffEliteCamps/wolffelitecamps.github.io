@@ -1729,7 +1729,7 @@ input::-moz-focus-inner {
 
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
-  color: #ffffff;
+  color: #000000;
 }
 
 .header-menu-toggle span {
@@ -1737,7 +1737,7 @@ input::-moz-focus-inner {
   width: 24px;
   height: 2px;
   margin-top: -1px;
-  background-color: #ffffff;
+  background-color: #000000;
   transition: all .5s;
   font: 0/0 a;
   text-shadow: none;
