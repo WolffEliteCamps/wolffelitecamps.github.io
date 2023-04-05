@@ -2158,6 +2158,18 @@ input::-moz-focus-inner {
 }
 
 
+@media screen and (max-width: 768px) {
+  .header-field h1 {
+    font-size: 24px; /* Adjust this value to fit the text on mobile devices */
+  }
+
+  img.fr-fic.fr-dib {
+    width: 100%; /* Set the image width to 100% for mobile devices */
+    max-width: 500px; /* Set the maximum image width */
+  }
+}
+
+
 
 /* ===================================================================
  * # about
