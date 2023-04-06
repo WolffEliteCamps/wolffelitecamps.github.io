@@ -795,121 +795,6 @@ select:-webkit-autofill:focus {
  * # buttons
  *
  * ------------------------------------------------------------------- */
-.btn,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  letter-spacing: .5rem;
-  height: 6rem;
-  line-height: 5.6rem;
-  padding: 0 3.2rem;
-  margin: 0 .4rem 1.6rem 0;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: all .3s ease-in-out;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #d3d3d3;
-  border: 0.2rem solid #d3d3d3;
-}
-
-.btn:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.btn:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  background-color: #c3c3c3;
-  border-color: #c3c3c3;
-  color: #000000;
-  outline: 0;
-}
-
-/* button primary
- * ------------------------------------------------- */
-.btn.btn--primary,
-button.btn--primary,
-input[type="submit"].btn--primary,
-input[type="reset"].btn--primary,
-input[type="button"].btn--primary {
-  background: #000000;
-  border-color: #000000;
-  color: #ffffff;
-}
-
-.btn.btn--primary:hover,
-button.btn--primary:hover,
-input[type="submit"].btn--primary:hover,
-input[type="reset"].btn--primary:hover,
-input[type="button"].btn--primary:hover,
-.btn.btn--primary:focus,
-button.btn--primary:focus,
-input[type="submit"].btn--primary:focus,
-input[type="reset"].btn--primary:focus,
-input[type="button"].btn--primary:focus {
-  background: #cf1767;
-  border-color: #cf1767;
-}
-
-/* button modifiers
- * ------------------------------------------------- */
-.btn.full-width,
-button.full-width {
-  width: 100%;
-  margin-right: 0;
-}
-
-.btn--medium,
-button.btn--medium {
-  height: 6.4rem !important;
-  line-height: 6rem !important;
-}
-
-.btn--large,
-button.btn--large {
-  height: 6.8rem !important;
-  line-height: 6.4rem !important;
-}
-
-.btn--stroke,
-button.btn--stroke {
-  background: transparent !important;
-  border: 0.2rem solid #000000;
-  color: #000000;
-}
-
-.btn--stroke:hover,
-button.btn--stroke:hover {
-  background: #000000 !important;
-  border: 0.2rem solid #000000;
-  color: #ffffff;
-}
-
-.btn--pill,
-button.btn--pill {
-  padding-left: 3.2rem !important;
-  padding-right: 3.2rem !important;
-  border-radius: 1000px !important;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
 
 
 
@@ -2446,22 +2331,24 @@ input::-moz-focus-inner {
   color: #cf1767;
 }
 
+.register {
+  background-color: white;
+}
 
-  .register-button {
-    font-size: 1.2rem;
-    background-color: darkgreen;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
+.register-button {
+  font-size: 1.7rem;
+  color: darkgreen;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 14x;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
 
-  .register-button:hover {
-    background-color: green;
-  }
+.register-button:hover {
+  color: green;
+}
 
 
 h1 {
@@ -2964,52 +2851,8 @@ h1 {
   cursor: pointer;
 }
 
-.testimonials__slider .slick-dots li button {
-  display: block;
-  width: 10px;
-  height: 10px;
-  line-height: 10px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.4);
-  border: none;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-}
 
-.testimonials__slider .slick-dots li button:hover,
-.testimonials__slider .slick-dots li button:focus {
-  outline: none;
-}
 
-.testimonials__slider .slick-dots li.slick-active button,
-.testimonials__slider .slick-dots li:hover button {
-  background: #cf1767;
-}
-
-.testimonials__slide {
-  position: relative;
-}
-
-.testimonials__info {
-  height: 7.2rem;
-  margin-top: 8rem;
-  padding-left: 10rem;
-  position: relative;
-}
-
-.testimonials__avatar {
-  width: 7.2rem;
-  height: 7.2rem;
-  border-radius: 100%;
-  outline: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
 .testimonials__cite {
   display: block;
