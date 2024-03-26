@@ -1656,8 +1656,8 @@ select:-webkit-autofill:focus {
 }
 
 .header-menu-toggle.is-clicked span {
-  background-color: green;
-  /*background-color: rgba(0, 0, 0, 0);*/
+  /*background-color: green;*/
+  background-color: rgba(0, 0, 0, 0);
   transition: all .1s;
 }
 
