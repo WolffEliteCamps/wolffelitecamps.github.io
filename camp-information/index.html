@@ -31,14 +31,16 @@
     <link rel="manifest" href="site.webmanifest">
 
 </head>
-<body id="top">
-	<div id="preloader">
-        <div id="loader"></div>
+<body id="top" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="30" class="  pace-done" style="background-color:white;"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px); background-color:white;">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+	<div id="preloader" style="display: none;">
+        <div id="loader" style="display: none;"></div>
     </div>
 
     <!-- site header -->
     <header class="s-header">
-        <!-- (header content remains the same) -->
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
@@ -49,10 +51,13 @@
         <nav class="header-nav-wrap">
             <ul class="header-main-nav">
                 <li class="current"><a href="https://wolffelitecamps.github.io/" title="intro">Home</a></li>
-                <li><a class="smoothscroll" href="about/" title="about">About</a></li>
-                <li><a class="smoothscroll" href="coaching-staff/" title="services">Coaching Staff</a></li>
-                <li><a href="">Camp Information</a>
-                <li><a href="" title="works">Registration</a></li>
+                <li><a href="https://wolffelitecamps.github.io/about/" title="about">About</a></li>
+                <li><a href="https://wolffelitecamps.github.io/coaching-staff" title="Coaching Staff">Coaching Staff</a></li>
+                <!-- <li><a class="smoothscroll" href="coaching-staff/" title="about">Coaching Staff</a></li>
+                -->
+                <li><a href="https://wolffelitecamps.github.io/camp-information" title="services">Camp Information</a></li>
+                
+                <li><a href="https://wolffelitefootballcamp.ticketspice.com/wolff-elite-football-camp-2024" title="works">Registration</a></li>
                 <!-- <li><a class="smoothscroll" href="#contact" title="contact us">What's included</a></li>	-->
             </ul>
 
@@ -65,45 +70,39 @@
         </nav>
 
         <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-    </header>
+
+    </header> <!-- end s-header -->
 
 
     <!-- services
     ================================================== -->
-    <section id="services" class="s-services ss-dark target-section">
+    <section style="position: relative; background: rgba(0, 0, 0, 0.5);background-image: url('https://cdn.uploads.webconnex.com/127948/img_7792.jpg'); background-size: cover; background-position: center center;" class="s-services ss-dark target-section" id="services">
 
-        <div class="shadow-overlay"></div>
-
-        <div class="row heading-block heading-block--center" data-aos="fade-up">
-            <div class="column large-full">
+        <div class="row heading-block heading-block--center aos-init aos-animate" data-aos="fade-up">
+            
+<div style="position: relative; width: 100%; background-size: cover;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5);"></div>
+    <div class="column large-full" style="position: relative; z-index: 2; color: white; padding: 20px;">
                 <h2 class="section-heading section-heading--centerbottom">Camp Information</h2>
-	            <div>
-	                <h1 style="font-size:72px;text-align:center">
-	                	<em>Letson Stadium, Venice | May 18, 2024 | 8:00 am- 12:00 pm</em>
-	                </h1>
-	                <h2>
-	                	<strong>Date</strong>
-	                </h2> <br>
-					<p>May 18, 2024</p>
-					<h2>
-	                	<strong>Location</strong>
-	                </h2> 
-	                <p>Letson Stadium, Venice <br>
-	                <p>1001 Pinebrook Road</p>
-	                <h4>
-	                	Ages
-	                </h4> <p>8-14</p>
-	            </div>
+                <h1 style="font-size:45px;text-align:center; color:white;">
+                    <em>Letson Stadium, Venice</em><br>
+                    
+                    <em>1001 Pinebrook Road</em><br>
+                    <em>May 18, 2024 </em><br>
+                    <em>Ages: 8-14</em>
+                </h1>
             </div>
+
+    </div>
         </div> <!-- end heading-block -->
 
-            <div class="field-image header-field">
+         <!--   <div class="field-image header-field">
                 <div class="holds-content-image">
-                    <img src="https://cdn.uploads.webconnex.com/127948/img_7792.jpg" alt=""/>
+                    <img src="https://cdn.uploads.webconnex.com/127948/img_7792.jpg" alt="">
                 </div>
             </div>
-
-        </div> <!-- end services-list -->
+        -->
+         <!-- end services-list -->
     </section> <!-- end s-services -->
 
     <!-- footer -->
@@ -115,5 +114,6 @@
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/plugins.js"></script>
     <script src="../js/main.js"></script>
+
 </body>
 </html>

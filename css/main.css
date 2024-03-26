@@ -1590,7 +1590,9 @@ select:-webkit-autofill:focus {
 }
 
 .header-social li a {
-  color: #fff000;
+  color: #33cc33;
+  /*
+  33cc33 is green, fff000 is yellowww*/
 }
 
 /* ------------------------------------------------------------------- 

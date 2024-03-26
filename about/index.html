@@ -38,7 +38,6 @@
 
     <!-- site header -->
     <header class="s-header">
-        <!-- (header content remains the same) -->
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
@@ -49,9 +48,12 @@
         <nav class="header-nav-wrap">
             <ul class="header-main-nav">
                 <li class="current"><a href="https://wolffelitecamps.github.io/" title="intro">Home</a></li>
-                <li><a class="smoothscroll" href="https://wolffelitecamps.github.io/about" title="about">About</a></li>
-                <li><a class="smoothscroll" href="https://wolffelitecamps.github.io/coaching-staff/" title="services">Coaching Staff</a></li>
-                <li><a href="https://wolffelitecamps.github.io/camp-information">Camp Information</a>
+                <li><a href="https://wolffelitecamps.github.io/about/" title="about">About</a></li>
+                <li><a href="https://wolffelitecamps.github.io/coaching-staff" title="Coaching Staff">Coaching Staff</a></li>
+                <!-- <li><a class="smoothscroll" href="coaching-staff/" title="about">Coaching Staff</a></li>
+                -->
+                <li><a href="https://wolffelitecamps.github.io/camp-information" title="services">Camp Information</a></li>
+                
                 <li><a href="https://wolffelitefootballcamp.ticketspice.com/wolff-elite-football-camp-2024" title="works">Registration</a></li>
                 <!-- <li><a class="smoothscroll" href="#contact" title="contact us">What's included</a></li>	-->
             </ul>
@@ -65,7 +67,8 @@
         </nav>
 
         <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-    </header>
+
+    </header> <!-- end s-header -->
 
 
     <!-- About Content Here -->
@@ -73,7 +76,7 @@
     	<div class="hayden">
     		<img src="images/hayden.png" style="width: 300px; height: auto; float: left; margin-right: 20px;">
     		<b>
-    			<strong>Hayden Wolff</strong><br>
+    			<h2><strong>Hayden Wolff</strong></h2><br>
     			Co-Founder/ Camp Director
     		</b>
 	    	<p>Hayden was born and raised in Englewood Florida. He attended Lemon Bay High School for three years then transferred to Venice High School in 2018.  He is the starting quarterback at Western Michigan University. Throughout the course of his college career, Hayden has appeared in 36 career games with 29 career starts. Hayden has four years of youth coaching experience, and has directed multiple camps with 50+ participants.</p>
@@ -82,7 +85,7 @@
 		<div class="weston">
 		<img src="images/weston.png" style="width: 300px; height: auto; float: right; margin-right: 20px;">
 			<b style="float: right; margin-right: 20px;">
-				<strong style="float: right;">Weston Wolff</strong><br>
+				<h2><strong style="float: right;">Weston Wolff</strong></h2><br>
 				Co-Founder/ Tight-End coach
 			</b><br>
 			<p><br>Weston was born and raised in Englewood Florida. He attended Venice High School and graduated in the class of 2021. He is a current starting tight-end at the University of South Florida. Throughout the course of his college career, Weston has appeared in 15 games, with 13 career starts. Weston has three years of coaching experience.
@@ -104,15 +107,25 @@
 
     </section>
 
-
-    <!-- footer -->
+    <!-- footer
+    ================================================== -->
     <footer>
-        <!-- (footer content remains the same) -->
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright Zeus Company Ltd. 2023</span> 
+                <span>Design by <a href="https://www.cs.odu.edu/~cs_dsoos001/">Dominik Soós</a></span>
+            </div>            
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
     </footer>
 
-    <!-- Java Script -->
-    <script src="../js/jquery-3.2.1.min.js"></script>
-    <script src="../js/plugins.js"></script>
-    <script src="../js/main.js"></script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
