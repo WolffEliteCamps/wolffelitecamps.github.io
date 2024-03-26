@@ -1590,7 +1590,7 @@ select:-webkit-autofill:focus {
 }
 
 .header-social li a {
-  color: #33cc33;
+  color: green;
   /*
   33cc33 is green, fff000 is yellowww*/
 }
@@ -1624,7 +1624,7 @@ select:-webkit-autofill:focus {
   width: 24px;
   height: 2px;
   margin-top: -1px;
-  background-color: #000000;
+  background-color: white;
   transition: all .5s;
   font: 0/0 a;
   text-shadow: none;
@@ -1656,14 +1656,14 @@ select:-webkit-autofill:focus {
 }
 
 .header-menu-toggle.is-clicked span {
-  /*background-color: green;*/
-  background-color: rgba(0, 0, 0, 0);
+  background-color: green;
+  /*background-color: rgba(0, 0, 0, 0);*/
   transition: all .1s;
 }
 
 .header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
-  background-color: green;
+  background-color: white;
 }
 
 .header-menu-toggle.is-clicked span::before {
