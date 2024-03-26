@@ -1656,13 +1656,14 @@ select:-webkit-autofill:focus {
 }
 
 .header-menu-toggle.is-clicked span {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: green;
+  /*background-color: rgba(0, 0, 0, 0);*/
   transition: all .1s;
 }
 
 .header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
-  background-color: white;
+  background-color: green;
 }
 
 .header-menu-toggle.is-clicked span::before {
@@ -1723,8 +1724,9 @@ select:-webkit-autofill:focus {
     display: none;
     text-align: left;
     height: auto;
-    width: 100%;
-    padding: 120px 44px 64px;
+    width: 40%;
+    padding: 100px 40px 60px;
+    background-color: white;
   }
 
   .header-nav-wrap .header-main-nav {
@@ -1763,6 +1765,7 @@ select:-webkit-autofill:focus {
 
   .header-menu-toggle {
     display: block;
+    background-color: green;
   }
 
 }
