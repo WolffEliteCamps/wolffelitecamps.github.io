@@ -1725,7 +1725,7 @@ select:-webkit-autofill:focus {
     text-align: left;
     height: auto;
     width: 40%;
-    padding: 100px 40px 60px;
+    padding: 100px 10px 5px;
     background-color: white;
   }
 
