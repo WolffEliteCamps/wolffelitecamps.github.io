@@ -3338,6 +3338,39 @@ footer a:visited {
 }
 
 
+  .left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; /* Aligns the image to the right */
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left; /* Text alignment within the text div will still be left */
+  }
+
+  .left img, .right img {
+    flex: 1;
+    max-width: 75%;
+    height: auto;
+  }
+
+  .left div, .right div {
+    flex: 1;
+    max-width: 50%;
+    padding: 5px;
+  }
+  
+
+
 
 /* ===================================================================
  * # IE10/IE11 Specific
