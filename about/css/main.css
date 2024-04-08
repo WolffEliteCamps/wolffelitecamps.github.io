@@ -1549,7 +1549,7 @@ select:-webkit-autofill:focus {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: rgba(255, 255, 255, 255);
+  color: white;
   margin: 0 0 0 4px;
   z-index: 2;
   position: static;
@@ -1560,18 +1560,18 @@ select:-webkit-autofill:focus {
 }
 
 .header-main-nav a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 255.5);
   position: relative;
 }
 
 .header-main-nav a:hover,
 .header-main-nav a:focus,
 .header-main-nav a:active {
-  color: #ffffff;
+  color: #fff0f0;
 }
 
 .header-main-nav .current a {
-  color: #ffffff;
+  color: #fff0f0;
 }
 
 .header-social {
